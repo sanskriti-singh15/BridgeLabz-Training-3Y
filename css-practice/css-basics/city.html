@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Favorite City</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            color: #1f2937;
+        }
+
+        /* Header */
+        header {
+            background-color: #111827;
+            color: white;
+            padding: 25px;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+        }
+
+        /* Navigation */
+        nav {
+            background-color: #1f2937;
+            padding: 15px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 20px;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            color: #93c5fd;
+        }
+
+        /* Sections */
+        section {
+            min-height: 70vh;
+            padding: 80px 10%;
+            border-bottom: 5px solid white;
+        }
+
+        /* Introduction - Linear Gradient */
+        #intro {
+            background: linear-gradient(
+                120deg,
+                #bfdbfe,
+                #dbeafe,
+                #f0f9ff
+            );
+
+            text-align: center;
+        }
+
+        #intro h2 {
+            font-size: 3rem;
+            margin-bottom: 25px;
+            color: #172554;
+        }
+
+        #intro p {
+            max-width: 800px;
+            margin: auto;
+            font-size: 1.2rem;
+            line-height: 1.8;
+        }
+
+        /* Places - Radial Gradient */
+        #places {
+            background: radial-gradient(
+                circle,
+                #fef3c7,
+                #fde68a,
+                #f59e0b
+            );
+        }
+
+        #places h2 {
+            font-size: 2.5rem;
+            margin-bottom: 30px;
+            color: #78350f;
+        }
+
+        .cards {
+            display: flex;
+            gap: 30px;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        .card {
+            background-color: white;
+            width: 250px;
+            padding: 30px;
+            border: 3px solid #92400e;
+            border-radius: 15px;
+            text-align: center;
+        }
+
+        .card h3 {
+            font-size: 1.5rem;
+            margin-bottom: 15px;
+        }
+
+        .card p {
+            line-height: 1.6;
+        }
+
+        /* Culture */
+        #culture {
+            background-color: #ecfdf5;
+            padding: 10vh 10%;
+        }
+
+        #culture h2 {
+            font-size: 2.8rem;
+            font-weight: 700;
+            margin-bottom: 25px;
+            color: #065f46;
+        }
+
+        #culture p {
+            font-size: 1.1rem;
+            line-height: 1.8;
+            margin-bottom: 20px;
+        }
+
+        .highlight {
+            padding: 20px;
+            margin-top: 20px;
+            border: 2px solid #047857;
+            background-color: #d1fae5;
+            border-radius: 10px;
+        }
+
+        /* Footer */
+        footer {
+            background-color: #111827;
+            color: white;
+            text-align: center;
+            padding: 30px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>My Favorite City</h1>
+        <p>Exploring the beauty and culture of Mathura</p>
+    </header>
+
+    <nav>
+        <a href="#intro">Home</a>
+        <a href="#places">Places</a>
+        <a href="#culture">Culture</a>
+    </nav>
+
+    <main>
+
+        <!-- Introduction -->
+        <section id="intro">
+
+            <h2>Welcome to Mathura</h2>
+
+            <p>
+                Mathura is a beautiful and historic city in Uttar Pradesh.
+                It is famous for its rich cultural heritage, temples,
+                traditions and connection with Lord Krishna.
+            </p>
+
+        </section>
+
+        <!-- Famous Places -->
+        <section id="places">
+
+            <h2>Famous Places</h2>
+
+            <div class="cards">
+
+                <div class="card">
+                    <h3>Krishna Janmabhoomi</h3>
+                    <p>
+                        A famous religious and historical site
+                        located in the heart of Mathura.
+                    </p>
+                </div>
+
+                <div class="card">
+                    <h3>Vishram Ghat</h3>
+                    <p>
+                        A beautiful ghat situated on the banks
+                        of the Yamuna River.
+                    </p>
+                </div>
+
+                <div class="card">
+                    <h3>Dwarkadhish Temple</h3>
+                    <p>
+                        One of the well-known temples of Mathura,
+                        famous for its beautiful architecture.
+                    </p>
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- Culture -->
+        <section id="culture">
+
+            <h2>Culture & Tradition</h2>
+
+            <p>
+                Mathura has a vibrant culture filled with music,
+                festivals, traditional food and religious celebrations.
+            </p>
+
+            <div class="highlight">
+
+                <strong>Famous Festival:</strong>
+
+                <p>
+                    Holi in Mathura and the nearby Braj region is
+                    celebrated with great enthusiasm and attracts
+                    visitors from different parts of the country.
+                </p>
+
+            </div>
+
+        </section>
+
+    </main>
+
+    <footer>
+        <p>© 2026 My Favorite City | Mathura</p>
+    </footer>
+
+</body>
+</html>

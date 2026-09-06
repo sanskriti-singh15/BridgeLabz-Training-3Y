@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Combined Layout (Flexbox & Grid)</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="page-container">
+        <!-- Header with logo and nav using Flexbox -->
+        <header class="main-header">
+            <div class="logo">BrandLogo</div>
+            <nav class="nav-links">
+                <a href="#">Home</a>
+                <a href="#">About</a>
+                <a href="#">Services</a>
+                <a href="#">Contact</a>
+            </nav>
+        </header>
+
+        <!-- Main area divided into a 2-column Grid (Article + Sidebar) -->
+        <main class="content-grid">
+            <article class="main-article">
+                <h2>Main Article Title</h2>
+                <p class="animated-text">This content fades in using keyframe animations.</p>
+                
+                <!-- Inside main article, three boxes aligned using Flexbox -->
+                <div class="flex-boxes">
+                    <div class="box">Feature 1</div>
+                    <div class="box">Feature 2</div>
+                    <div class="box">Feature 3</div>
+                </div>
+            </article>
+
+            <aside class="sidebar">
+                <h3>Sidebar</h3>
+                <p>Recent posts, links, or widget details go here.</p>
+            </aside>
+        </main>
+
+        <!-- Footer spans full width with centered text -->
+        <footer class="main-footer">
+            <p>&copy; 2026 BrandLogo. All rights reserved.</p>
+        </footer>
+    </div>
+</body>
+</html>

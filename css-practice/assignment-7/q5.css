@@ -1,0 +1,55 @@
+/* Attribute selector */
+input[type="text"] {
+    border: 2px solid blue;
+    padding: 10px;
+}
+
+input[type="email"] {
+    border: 2px solid green;
+    padding: 10px;
+}
+
+/* Pseudo-class */
+input:focus {
+    background-color: lightyellow;
+}
+
+/* :nth-child() */
+li:nth-child(odd) {
+    background-color: lightblue;
+}
+
+/* Pseudo-element */
+h1::before {
+    content: "★ ";
+}
+
+h1::after {
+    content: " ★";
+}
+
+/* Child selector */
+.parent > p {
+    color: blue;
+}
+
+/* Descendant selector */
+.parent p {
+    font-size: 18px;
+}
+
+/* Adjacent sibling selector */
+.parent p + p {
+    font-weight: bold;
+}
+
+/* General sibling selector */
+.parent p ~ section {
+    border: 2px solid purple;
+    padding: 10px;
+}
+
+/* Attribute selector for href */
+a[href^="https"] {
+    color: green;
+}

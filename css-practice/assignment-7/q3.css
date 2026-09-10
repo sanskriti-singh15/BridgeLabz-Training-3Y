@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+header {
+    padding: 30px;
+    background-color: #222;
+    color: white;
+}
+
+section {
+    min-height: 400px;
+    padding: 100px 30px;
+}
+
+.linear {
+    background: linear-gradient(to right, #74ebd5, #acb6e5);
+}
+
+.radial {
+    background: radial-gradient(circle, #ffecd2, #fcb69f);
+
+    background-attachment: fixed;
+}
+
+h2 {
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 18px;
+    max-width: 600px;
+    margin: auto;
+    line-height: 1.6;
+}
